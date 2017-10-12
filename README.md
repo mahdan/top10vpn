@@ -5,13 +5,13 @@ I have managed to build out and style the page according to the Sketch file. How
 ## Download repository from github
 
 ```
-git clone git@github.com:mahdan1075/kittify.git
+git clone git@github.com:mahdan/top10vpn.git
 ```
 
 ## Go into directory
 
 ```
-cd tailify-kittens
+cd top10vpn
 ```
 
 ## Install packages
