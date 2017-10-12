@@ -1,0 +1,68 @@
+.form {
+  margin: 20px 0;
+}
+
+.form_field {
+  height: 40px;
+  margin-bottom: 24px;
+  display: table;
+}
+
+.form_field_select_label {
+  width: 135px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.form_field_select {
+  width: 135px;
+  padding: 12px 13px 15px 10px;
+  float: right;
+  background-color: #e6f5fc;
+  border: none;
+  border-radius: 0;
+}
+
+.form_field_group {
+  border: solid 1px #d1d1d1;
+  display: inline-block;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.form_field_group_input {
+  position: absolute;
+  visibility: hidden;
+  display: none;
+}
+
+.form_field_group_input_label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px 20px;
+  width: 99px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.form_field_group_input {
+
+  &:checked + .form_field_group_input_label{
+    background: #e6f5fc;
+  }
+}
+
+.form_field_group_input_label + .form_field_group_input + .form_field_group_input_label {
+  border-left: solid 1px #d1d1d1;
+}
+
+.form_field_submit {
+  text-align: center;
+}
+
+.form_field_submit_button {
+  background-color: #19b4e4;
+  padding: 9px 15px 12px;
+  display: inline-block;
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+@import "./styles/normalise.scss";
+
+.wrapper {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 20px 10px;
+  box-sizing: border-box;
+}
+
+.h1{
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0 0 10px;
+}
